@@ -1,0 +1,396 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.social_box{
+       height: 40px;
+       width: 100%;
+       background-color: #0d2d3e;
+}
+
+.schedule{
+    height: 100%;
+    width: 35%;
+    /* background-color: aqua; */
+    padding-top: 13px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    color: white;
+    float: left;
+}
+
+.schedule i{
+    float: left;
+}
+
+.social_media{
+    height: 100%;
+    width:35% ;
+    float:right;
+    /* background-color: red; */
+}
+
+.media_icons{
+    height: 100%;
+    width: 40px;
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: white;
+}
+.media_icons:hover{
+    color: orange;
+    transform: scaleX(-1);
+}
+
+.navbar_box{
+    height: 100px;
+    width: 100%;
+    /* background-color:red ; */
+}
+
+.logo_box{
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.pages{
+     width: 50%;
+     height: 100%;
+     /* background-color:yellow; */
+     float: right;
+}
+
+.page1{
+    height: 100%;
+    width:15%;
+    /* background-color: green; */
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.business{
+      height: 600px;
+      width: 100%;
+      background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg);
+      background-position:100% 100% ;
+      background-size: 100% 100%;
+    }
+
+    .services{
+        height: 100%;
+        width: 100%;
+        /* background-color: orange; */
+    }
+    .left{
+        height: 75px;
+        width: 75px;
+        border:2px solid black;
+        position: absolute;
+        top: 350px;
+    }
+
+   .all_service_data{
+        height: 100%;
+        width:70%;
+         /* background-color: #0d2d3e; */
+        float: left;
+   }
+
+   .right{
+    height: 75px;
+    width: 75px;
+    border: 2px solid black;
+    position: relative;
+    left:25%;
+    top:200px;
+    float: left;
+   }
+
+   .title_service{
+       color: orange;
+       font-size:24px;
+       margin-left: 180px;
+       margin-top: 150px;
+   }
+
+   .all_service_data h1{
+          font-size: 90px;
+          margin-left:150px ;
+   }
+
+   .service_detail{
+    margin-left: 150px;
+   }
+.btn{
+    margin-left: 150px;
+    margin-top: 60px;
+    height: 50px;
+    width: 100px;
+    color: red;
+}
+.btn:hover{
+  background-color: rgb(128, 58, 0);  /* arrow nele ki color change */
+  color: yellow;
+}
+
+   .business i{
+    text-align: center;
+    margin: 21px;
+    margin-top: 28px;
+    float: left;
+   }
+
+   .case_study{
+     height: 1350px;
+      width: 100%;
+      background-color: #0d2d3e;
+      padding-left: 100px;
+      box-sizing: border-box;
+      padding-top: 7%;
+   }
+
+   .case_heading{
+    height: 20%;
+    width: 100%;
+    /* padding-left: 100px;  */
+    box-sizing: border-box;
+    p{
+        color: orange;
+    }
+    h1{
+        font-size: 50px;
+        color: white;
+    }
+   }
+
+   .stratergy1{
+           height:400px;
+           width:42% ;
+           background-color: red; 
+           float: left;
+           background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/services1.png);
+           background-size: 100% 100%;
+           margin-bottom: 100px;
+   }
+   .stratergy2{
+           height:400px;
+           width:42% ;
+           /* background-color: red; */
+           background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/services2.png);
+           float: left;
+           margin-left: 100px;
+           background-size: 100% 100%;
+           margin-bottom: 100px;
+   }
+
+   .service1{
+    height: 30%;
+    width: 70%;
+    background-color: white;
+    position: relative;
+    top: 85%;
+    p{
+        color: orange;
+    }
+   }
+   .stratergy3{
+           height:400px;
+           width:42% ;
+           /* background-color: red; */
+           background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/services3.png);
+           float: left;
+           /* margin-left: 100px; */
+           background-size: 100% 100%;
+           margin-bottom: 100px;
+   }
+.stratergy4{
+           height:400px;
+           width:42% ;
+           /* background-color: red; */
+           background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/services4.png);
+           float: left;
+           margin-left: 100px;
+           background-size: 100% 100%;
+           margin-bottom: 100px;
+}
+
+.our_best_services{
+     height: 800px;
+      width: 100%;
+      background-color: #a2aaae;
+      padding-left: 100px;
+      box-sizing: border-box;
+      padding-top: 7%;
+}
+.our_top_service_heading{
+    height: 20%;
+    width: 100%;
+    /* padding-left: 100px;  */
+    box-sizing: border-box;
+    p{
+        color: orange;
+    }
+    h1{
+        margin-top: 30px;
+        font-size: 50px;
+        color: black;
+    }
+   }
+ 
+   .stratregy_planning{
+  height: 400px;
+  width: 30%;
+  background-color: white;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+   }
+
+  .stratregy_planning i{
+     text-align: center;
+     font-size: 70px;
+     padding-left: 150px;
+     margin-top: 50px;
+     color: red;
+   }
+
+
+.stratregy_planning h2{
+         margin-top: 145px;
+         padding:30px;
+         color: rgb(7, 7, 40);
+}
+.stratregy_planning p{
+    margin-top: 10px;
+}
+   
+   .insurance_service{
+           height:400px;
+           width:30% ;
+           background-color: white;
+           margin-left: 20px;
+           float: left;
+           text-align: center;
+           box-sizing: border-box;
+   }
+   .insurance_service i{
+     text-align: center;
+     font-size: 70px;
+     padding-left: 150px;
+     margin-top: 50px;
+     color: red;
+   }
+   .insurance_service h2{
+          margin-top: 145px;
+         padding:30px;
+         color: rgb(7, 7, 40);
+
+   }
+   .insurance_service p{
+          margin-top: 10px;
+   }
+   .audit_evaluation{
+          height:400px;
+           width:30% ;
+           background-color: white;
+            margin-left: 20px;
+            float: left;
+            text-align: center;
+           box-sizing: border-box;
+   }
+   .audit_evaluation i{
+          text-align: center;
+     font-size: 70px;
+     padding-left: 150px;
+     margin-top: 50px;
+     color: red;
+   }
+   
+   .audit_evaluation h2{
+              margin-top: 145px;
+         padding:30px;
+         color: rgb(7, 7, 40);
+   }
+
+   .audit_evaluation p{
+          margin-top: 10px; 
+   }
+
+  
+.service-section{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+}
+
+/* LEFT RED */
+.left-red{
+    width: 30%;
+    background-color: #ff2b4a;
+}
+
+/* RIGHT BLUE */
+.right-blue{
+    width: 60%;
+    background-color: #163c4f;
+    color: white;
+    padding: 120px 80px;
+    position: relative;
+}
+
+.right-blue .small-title{
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    padding-left: 400px;
+}
+
+.right-blue h2{
+    font-size: 42px;
+    margin: 15px 0;
+    padding-left: 400px;
+}
+
+.right-blue p{
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.9;
+    padding-left: 400px;
+    font-size: large;
+    margin-top: 50px;
+}
+
+/* IMAGE OVER BOTH */
+.service-img{
+    position: absolute;
+    left: 9%;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.service-img img{
+    width: 600px;
+    height: 600px;
+}
+
+.btn_more_about{
+   background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+}
+
+  
