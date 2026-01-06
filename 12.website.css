@@ -154,7 +154,7 @@
    .case_study{
      height: 1350px;
       width: 100%;
-      background-color: #0d2d3e;
+      background-color: rgb(247,247,247);
       padding-left: 100px;
       box-sizing: border-box;
       padding-top: 7%;
@@ -170,7 +170,7 @@
     }
     h1{
         font-size: 50px;
-        color: white;
+        color: black;
     }
    }
 
@@ -228,7 +228,7 @@
 .our_best_services{
      height: 800px;
       width: 100%;
-      background-color: #a2aaae;
+      background-color: rgb(247,247,247);
       padding-left: 100px;
       box-sizing: border-box;
       padding-top: 7%;
@@ -352,7 +352,7 @@
 
 .right-blue .small-title{
     font-size: 14px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     opacity: 0.8;
     padding-left: 400px;
 }
@@ -386,11 +386,522 @@
 }
 
 .btn_more_about{
-   background-color: red;
-    color: white;
+   background-color: red; 
+    /* color: white; */
     padding: 10px 20px;
     border: none;
     margin-top: 20px;
+    position: relative;
+    top:100px;
+    left: 20px;
+}
+.blue_div{
+  background-color: rgb(21,67,91);
+  height: 800px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: #dbe5ea;
+  padding-top: 60px;
+
+}
+.center_doduble_coat{
+ font-size: 70px;
+  color: #ff2b4a;
+  text-align: center;
+  padding-left: 700px;
+  float: left;
+}
+.quote_text{
+max-width: 900px;
+  margin: 120px auto;
+  line-height: 28px;
+  font-size: 18px;
+ 
+}
+.author{
+  display: flex;          /* image + text same line */
+  align-items: center;    /* vertically center */
+  justify-content: center;
+  gap: 15px;              /* image आणि text मध्ये space */
+  margin-top: 40px;
 }
 
+.author img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author_text{
+  text-align: left;       /* text image च्या right ला */
+}
+
+.author_text h3{
+  color: #ff2b4a;
+  margin: 0;
+  font-size: 22px;
+}
+
+.author_text span{
+  font-size: 14px;
+  color: #a9c0cc;
+}
+.left_side{
+  height: 50px;
+  width: 50px;
+  background-color:rgb(21,67,91);
+  border: 1px solid black;
+
+  position: relative;   /* 🔑 movement साठी */
+  top: 0px;            /* खाली */
+  left: 200px;
+}
+.right_side{
+  height: 50px;
+  width: 50px;
+  background-color:rgb(21,67,91);
+  border: 1px solid black;
+
+  position: absolute;     /* background वर ठेवण्यासाठी */
+  top: 53%;
+  margin-left: 1200px;
+}
+
+.counter_wrapper{
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  bottom: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.counter_box{
+  height: 200px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.counter_box h1{
+  margin-top: 60px;
+  font-size: 60px;
+  color: black;
+}
+
+.counter_box p{
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Middle red box */
+.counter_box.active{
+  background-color: #ff2b4a;
+}
+
+.counter_box.active h1,
+.counter_box.active p{
+  color: white;
+}
+.white_div{
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+
+
+.our_professional_members{
+    height: 1000px;
+    width: 87%;
+    background-color: rgb(247,247,247);
+    padding-left: 200px;
+
+}
+
+.our_professional_members_heading{
+   height: 20%;
+    width: 100%;
+    /* padding-left: 100px;  */
+    box-sizing: border-box;
+    /* background-color: #0d2d3e; */
+      /* padding-left: 100px; */
+      box-sizing: border-box;
+      padding-top: 7%;
+   p{
+        color: orange;
+
+    }
+    h1{
+        margin-top: 30px;
+        font-size: 50px;
+        color: black;
+    }
+}
+.Member1{
+          height:500px;
+           width:25% ;
+           background-color: red; 
+           float: left; 
+           background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/team2.png);
+           background-size: 100% 100%;
+           margin-top: 60px; 
+}
+.Member2{
+          height:500px;
+           width:25% ;
+           background-color: red; 
+           float: left; 
+           background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/team3.png);
+           background-size: 100% 100%;
+           margin-top: 60px;
+           margin-left: 20px; 
+}
+.Member3{
+          height:500px;
+           width:25% ;
+           background-color: red; 
+           float: left; 
+           background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/team1.png);
+           background-size: 100% 100%;
+           margin-top: 60px; 
+           margin-left: 20px;
+}
+.Ethan_welch1{
+  width: 25%;
+  height: 100px;
+  background-color: rgb(255,255,255);
+  /* margin-top: 5%; */
+  float: left;
+  h1{
+    padding: 15px;
+  }
+  p{
+    margin: 0;
+  padding: 0 15px;
+  color: red;
+  }
+}
+
+.Ethan_welch2{
+    width: 25%;
+  height: 100px;
+  background-color: rgb(255,255,255);
+  margin-left: 20px;
+  float: left;
+   h1{
+    padding: 15px;
+  }
+  p{
+    margin: 0;
+  padding: 0 15px;
+  color: red;
+  }
+}
+.Ethan_welch3{
+    width: 25%;
+  height: 100px;
+  background-color: rgb(255,255,255);
+  margin-left: 20px;
+  float: left;
+   h1{
+    padding: 15px;
+  }
+  p{
+    margin: 0;
+  padding: 0 15px;
+  color: red;
+  }
+}
+.red_bar{
+  height: 350px;
+  width: 100%;
+  background-color: rgb(254,42,74);
+  /* float: left; */
+  h1{
+    padding: 100px;
+    margin-left: 100px;
+    float: left;
+    color: #dbe5ea;
+    font-size: 50px;
+  }
+  .btn_more_about_us{
+    margin-top: 150px;
+    margin-left: 200px;
+    font-size: 25px;
+    color:white;
+    background-color:black;
+  }
+}
+.btn_more_about_us:hover{
+  color:black;
+  background-color:white;
+}
+.Recent_news_us{
+  height: 1400px;
+  width: 100%;
+  background-color: rgb(247,247,247);
+  float: left;
+   p{
+        margin-left: 15%;
+        color: rgb(238,110,108);
+        font-size: 20px;
+        margin-top:5%;
+    }
+    h1{
+        margin-left: 15%;
+        font-size: 50px;
+        margin-top: 10px;
+    }
+}
+.ladki_ladka1{
+  height: 450px;
+  width:550px;
+  background-color: #0d2d3e;
+  float: left;
+  margin-left: 230px;
+  margin-top: 100px;
+  background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/home_blog1.png);
+}
+.By_admin{
+  height:50px;
+  width: 300px;
+  background-color: grey;
+  margin-top: 370px;
+  p{
+    color: white;
+    /* margin-top: 100px; */
+    /* text-align: center; */
+    margin: 10px;
+    padding: 13px;
+  }
+}
+.easy_ideas{
+     height: 300px;
+     width: 550px;
+     background-color: rgb(255,255,255);
+     /* background: no-repeat; */
+     background-size: 100% 100%;
+     float: left;
+     p{
+      color: black;
+     }
+     .color{
+      color: #ff2b4a;
+     }
+}
+.ladki_ladka2{
+  height: 450px;
+  width:550px;
+  background-color: #0d2d3e;
+  margin-left: 800px;
+  margin-top: 100px;
+  background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/home_blog2.png);
+  /* float: left; */
+}
+.By_admin2{
+  height:50px;
+  width: 300px;
+  background-color: grey;
+  margin-top: 370px;
+  float: left;
+  p{
+    color: white;
+  }
+}
+.easy_ideas2{
+  height: 300px;
+     width: 550px;
+     background-color: rgb(255,255,255);
+     /* background: no-repeat; */
+     background-size: 100% 100%;
+     float: left;
+     p{
+      color: black;
+     }
+     .color2{
+      color: #ff2b4a;
+     }
+}
+
+.advertise{
+ height:200px; 
+    width: 90%; 
+   /* background-color: pink;   */
+    float: left;
+    margin:100px;
+    /* padding-bottom: 5%; */
+}
+.advertise1{
+height:90px; 
+    width:12%; 
+     /* background-color:blueviolet; */
+    float: left;
+    margin-top:6%;
+    margin-left:135px;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/brand3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.advertise2{
+  height:90px; 
+    width:12%; 
+     /* background-color:blueviolet; */
+    float: left;
+    margin-top:6%;
+    margin-left: 20px;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/brand5.png);
+     background-repeat: no-repeat;
+    background-position: center;
+  }
+.advertise3{
+  height:90px; 
+    width:12%; 
+     /* background-color:blueviolet; */
+    float: left;
+    margin-top:6%;
+    margin-left: 20px;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/brand1.png);
+     background-repeat: no-repeat;
+    background-position: center;
+  }
+.advertise4{
+  height:90px; 
+    width:12%; 
+     /* background-color:blueviolet; */
+    float: left;
+    margin-top:6%;
+    margin-left: 20px;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/brand2.png);
+     background-repeat: no-repeat;
+    background-position: center;
+}
+.advertise5{
+  height:90px; 
+    width:12%; 
+     /* background-color:blueviolet; */
+    float: left;
+    margin-top:6%;
+    margin-left: 20px;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/brand4.png);
+     background-repeat: no-repeat;
+    background-position: center;
+}
+.footer{
+  height: 600px;
+  width:100%;
+  background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/footer_bg.jpg);
+  background-size: 100% 100%;
+  float: left;
+    padding: 100px;
+  box-sizing: border-box;
+}
+.footer_outside{
+  height: 90%;
+  width: 100%;
+  border-bottom: 2px solid white;
   
+}
+.contact{
+  height: 100%;
+  width: 20%;
+  /* background-color: aliceblue; */
+  float: left;
+  .number{
+    margin-top: 40px;
+    color: white;
+  }
+  .gmail{
+    margin-top: 15px;
+    color: white;
+  }
+  p{
+    margin-top: 40px;
+    color: white;
+  }
+  h1{
+    color: white;
+  }
+  
+}
+.location{
+  height: 100%;
+  width: 20%;
+  /* background-color: aliceblue; */
+  float: left;
+  margin-left: 40px;
+  p{
+    margin-top: 20px;
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+}
+.Explorer{
+  height: 100%;
+  width: 20%;
+  /* background-color: aliceblue; */
+  float: left;
+  margin-left: 40px;
+  p{
+    margin-top: 20px;
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+}
+.Location1{
+  height: 100%;
+  width: 30%;
+  /* background-color: aliceblue; */
+  float: left;
+  margin-left: 40px;
+  p{
+    margin-top: 20px;
+    color: white;
+  }
+
+  .signup-box{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+}
+.copy{
+  height: 100px;
+  width: 100%;
+  /* background-color: orange; */
+  margin-top: 30px;
+  p{
+    color: white;
+  }
+}
+
+.social_media_logo{
+   height: 80%;
+    width:35% ;
+    float:right;
+    /* background-color: red; */
+}
+.logo1{
+    height: 90%;
+    width: 40px;
+    /* background-color: yellow; */
+    float: left;
+    margin-left: 40px;
+    /* text-align: center; */
+    /* padding-top: 1px; */
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 10px;
+    i{
+      font-size: 20px;
+    }
+}
